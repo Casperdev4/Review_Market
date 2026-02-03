@@ -1,7 +1,7 @@
 /* Blog Styles */
 .blog-hero {
     padding: 160px 0 80px;
-    background: linear-gradient(180deg, #fff8f8 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #0d1520 0%, var(--white) 100%);
     text-align: center;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .blog-listing .blog-card {
-    background: var(--white);
+    background: var(--light);
     border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-sm);
@@ -127,20 +127,20 @@
 }
 
 .cta-section .btn-primary {
-    background: var(--white);
+    background: #121212;
     color: var(--primary);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 .cta-section .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 /* Article Page Styles */
 .article-hero {
     padding: 160px 0 60px;
-    background: linear-gradient(180deg, #fff8f8 0%, var(--white) 100%);
+    background: linear-gradient(180deg, #0d1520 0%, var(--white) 100%);
 }
 
 .article-hero .container {
@@ -284,7 +284,7 @@
 }
 
 .article-cta .btn {
-    background: var(--white);
+    background: #121212;
     color: var(--primary);
 }
 
@@ -311,7 +311,7 @@
 }
 
 .related-card {
-    background: var(--white);
+    background: var(--light);
     border-radius: var(--radius-lg);
     overflow: hidden;
     box-shadow: var(--shadow-sm);
