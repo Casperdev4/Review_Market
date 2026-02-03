@@ -139,11 +139,44 @@
                 "position": 1,
                 "name": "Pack 25 Avis Google Positifs",
                 "description": "25 avis Google 5 etoiles + 5 offerts. Comptes francais, textes personnalises, garantie a vie.",
+                "image": "https://review-market.fr/logo.png",
                 "offers": {
                     "@type": "Offer",
                     "price": "79",
                     "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock"
+                    "availability": "https://schema.org/InStock",
+                    "shippingDetails": {
+                        "@type": "OfferShippingDetails",
+                        "shippingRate": {
+                            "@type": "MonetaryAmount",
+                            "value": "0",
+                            "currency": "EUR"
+                        },
+                        "deliveryTime": {
+                            "@type": "ShippingDeliveryTime",
+                            "handlingTime": {
+                                "@type": "QuantitativeValue",
+                                "minValue": 1,
+                                "maxValue": 2,
+                                "unitCode": "DAY"
+                            },
+                            "transitTime": {
+                                "@type": "QuantitativeValue",
+                                "minValue": 3,
+                                "maxValue": 14,
+                                "unitCode": "DAY"
+                            }
+                        },
+                        "shippingDestination": {
+                            "@type": "DefinedRegion",
+                            "addressCountry": "FR"
+                        }
+                    },
+                    "hasMerchantReturnPolicy": {
+                        "@type": "MerchantReturnPolicy",
+                        "applicableCountry": "FR",
+                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    }
                 }
             },
             {
@@ -151,11 +184,44 @@
                 "position": 2,
                 "name": "Pack 50 Avis Google Positifs",
                 "description": "50 avis Google 5 etoiles + 10 offerts. Comptes francais, textes personnalises, garantie a vie.",
+                "image": "https://review-market.fr/logo.png",
                 "offers": {
                     "@type": "Offer",
                     "price": "139",
                     "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock"
+                    "availability": "https://schema.org/InStock",
+                    "shippingDetails": {
+                        "@type": "OfferShippingDetails",
+                        "shippingRate": {
+                            "@type": "MonetaryAmount",
+                            "value": "0",
+                            "currency": "EUR"
+                        },
+                        "deliveryTime": {
+                            "@type": "ShippingDeliveryTime",
+                            "handlingTime": {
+                                "@type": "QuantitativeValue",
+                                "minValue": 1,
+                                "maxValue": 2,
+                                "unitCode": "DAY"
+                            },
+                            "transitTime": {
+                                "@type": "QuantitativeValue",
+                                "minValue": 3,
+                                "maxValue": 14,
+                                "unitCode": "DAY"
+                            }
+                        },
+                        "shippingDestination": {
+                            "@type": "DefinedRegion",
+                            "addressCountry": "FR"
+                        }
+                    },
+                    "hasMerchantReturnPolicy": {
+                        "@type": "MerchantReturnPolicy",
+                        "applicableCountry": "FR",
+                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    }
                 }
             },
             {
@@ -163,14 +229,70 @@
                 "position": 3,
                 "name": "Pack 100 Avis Google Positifs",
                 "description": "100 avis Google 5 etoiles + 20 offerts. Comptes francais, textes personnalises, garantie a vie.",
+                "image": "https://review-market.fr/logo.png",
                 "offers": {
                     "@type": "Offer",
                     "price": "239",
                     "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock"
+                    "availability": "https://schema.org/InStock",
+                    "shippingDetails": {
+                        "@type": "OfferShippingDetails",
+                        "shippingRate": {
+                            "@type": "MonetaryAmount",
+                            "value": "0",
+                            "currency": "EUR"
+                        },
+                        "deliveryTime": {
+                            "@type": "ShippingDeliveryTime",
+                            "handlingTime": {
+                                "@type": "QuantitativeValue",
+                                "minValue": 1,
+                                "maxValue": 2,
+                                "unitCode": "DAY"
+                            },
+                            "transitTime": {
+                                "@type": "QuantitativeValue",
+                                "minValue": 3,
+                                "maxValue": 14,
+                                "unitCode": "DAY"
+                            }
+                        },
+                        "shippingDestination": {
+                            "@type": "DefinedRegion",
+                            "addressCountry": "FR"
+                        }
+                    },
+                    "hasMerchantReturnPolicy": {
+                        "@type": "MerchantReturnPolicy",
+                        "applicableCountry": "FR",
+                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    }
                 }
             }
         ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Review Market",
+        "url": "https://review-market.fr",
+        "logo": "https://review-market.fr/logo.png",
+        "image": "https://review-market.fr/logo.png",
+        "description": "Service d'achat d'avis Google pour ameliorer votre e-reputation. Avis positifs, negatifs et suppression d'avis.",
+        "email": "support@review-market.fr",
+        "areaServed": {
+            "@type": "Country",
+            "name": "France"
+        },
+        "priceRange": "€€",
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+        }
     }
     </script>
 </head>
