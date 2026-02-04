@@ -11,7 +11,10 @@
       "Bash(git pull:*)",
       "Bash(git checkout:*)",
       "Bash(powershell -command \"Get-Item ''c:\\\\Users\\\\Webpr\\\\Desktop\\\\avis-market\\\\favicon.ico'' | Select-Object Name, Length\")",
-      "Bash(du:*)"
+      "Bash(du:*)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)"
     ]
   }
 }
