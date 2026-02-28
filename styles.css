@@ -593,6 +593,48 @@ img {
     width: 100%;
 }
 
+.seo-content {
+    padding: 100px 0;
+    background: var(--white);
+}
+
+.seo-text {
+    max-width: 900px;
+    margin: 40px auto 0;
+}
+
+.seo-text h3 {
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+
+.seo-text h3:first-child {
+    margin-top: 0;
+}
+
+.seo-text p {
+    font-size: 15px;
+    color: var(--gray);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.seo-text strong {
+    color: var(--primary);
+}
+
+.seo-text a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.seo-text a:hover {
+    color: var(--primary-dark);
+}
+
 .faq {
     padding: 100px 0;
     background: linear-gradient(180deg, #0d1520 0%, var(--white) 100%);
@@ -1041,6 +1083,10 @@ img {
     }
 
     .testimonials {
+        padding: 50px 0;
+    }
+
+    .seo-content {
         padding: 50px 0;
     }
 
