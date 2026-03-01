@@ -14,7 +14,10 @@
       "Bash(du:*)",
       "Bash(tree:*)",
       "Bash(find:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(grep -c 'hreflang=\"\"x-default\"\"' *.html)",
+      "Bash(grep -c 'Bruges' *.html)",
+      "Bash(grep -c 'Tournai' *.html)"
     ]
   }
 }
